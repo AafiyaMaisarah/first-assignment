@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pi.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-position: center; */
+    height: 100%;
+}
+.box1{
+    width:700PX;
+    height:100%;
+    /* padding: 20px 20px 20px 20px;
+    margin:500px; */
+    border: 1px;
+   margin:50px,10px,10px,10px;
+   padding: 20px,20px, 20px,20px;
+   background-image: url(back.jfif);
+   background-repeat: no-repeat;
+   background-size: 900px ;
+    position: relative;
+    left:200px;
+    /* top:-50px; */
+    
+    top:-10;
+    float:left;
+    display: inline-block;
+    
+
+}
+.font{
+    float:right;
+    position: absolute;
+    top:60px;
+    left:70px;
+}
+    .clear{
+        clear:both;
+    }
+
+.box2{
+   width:700px;
+   height:700px;
+   margin: -105px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   
+    border: 1px;
+ position: relative;
+    left:-70px;
+    top:100px;
+    float:right;
+   
+
+} 
+
+.hello{
+color: #d3857d ;
+position: absolute;
+top:380px;
+bottom: 4%;
+left:60px;
+display:inline-block;
+font-family: 'Poiret One', cursive;
+font-weight: lighter;
+
+
+font-size: 20px;
+
+}
+ 
+
+
+
+.WE{
+    
+    color:#F5B7B1 ;
+    position: relative;
+    LEFT:60PX;
+    top:150px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+font-weight: lighter;
+font-weight: 200;
+font-size: 40PX;
+}
+.COMING{
+    color: #1C2833 ;
+    position: relative;
+    left:60px;
+    top:120px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+   /
+font-weight: 700;
+
+font-size: 50px;
+}
+
+#email{
+
+    width:300px;
+    height:20px;
+    
+    margin:20px;
+    padding:  20px;
+   border-radius: 30px;
+    border: 2px solid #F5B7B1;
+    /* color:rgb(214, 84, 101);  */
+    position: relative;
+    left:60px;
+    top:130px;
+    /* display:inline-block; */
+    
+
+}
+#email::placeholder{
+    color:#F5B7B1;
+
+}
+.clear{
+    clear:both;
+}
+.box{
+    /* float:right; */
+    width: 100px;
+    height: 30px;
+    margin:0px 20px;
+    padding: 10px 0px 30px 0px;
+    background-color:#F5B7B1 ;
+    border-radius: 30px;
+  
+
+    position: relative;
+    left:300px;
+    bottom: 12px;
+    top:67px;
+    text-align: center;
+    /* font-size: 20px;
+    font-weight: bold;
+    font-style: oblique; */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:thistle;
+}
+.txt{
+    color: white;
+    
+   
+    
+}
+
